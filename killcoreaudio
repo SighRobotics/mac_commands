@@ -1,0 +1,3 @@
+Kill the CoreAudio process by opening Terminal and running:
+    sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`
+It will restart automatically after a couple seconds.
